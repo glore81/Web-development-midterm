@@ -1,0 +1,64 @@
+.product {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    gap: 30px;
+    margin-top: 20px;
+}
+.photos {
+    display: flex;
+    gap:20px;
+}
+.photo {
+    width: 50%;
+    height: 540px;
+    background-color: #d9d9d9;
+}
+.info h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.colour {
+    display: flex;
+    gap:8px;
+    margin-bottom: 12px;
+}
+.white, .gray, .black {
+    width: 35px;
+    height: 35px;
+    border:1px solid gray;
+}
+.white {
+    background-color: white;
+}
+.gray {
+    background-color: gray;
+}
+.black {
+    background-color: black;
+}
+.size {
+    display: flex;
+    gap: 8px;
+}
+.size button {
+    width: 55px;
+    height: 40px;
+    border: 1px solid gray;
+}
+.selected{
+    background-color: black;
+    color: white;
+}
+.basket {
+    display:flex;
+    gap: 8px;
+    margin-top: 18px;
+}
+.delivery {
+    margin:5px 0;
+    padding: 5px 0;
+    font-size: 15px;
+}
+.price {
+    font-size: 20px;
+}
