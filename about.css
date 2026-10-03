@@ -9,7 +9,13 @@
     gap: 40px;
     align-items: center;
 }
+.about-text h1 , .about-text h2 {
+    margin-bottom: 15px;
+}
 .about-text p{
+    font-size: 16px;
+    color:rgb(43, 42, 42);
+    line-height: 24px;
 }
 .about-photo img{
     width: 100%;
