@@ -31,3 +31,14 @@ body {
     opacity: 0.7;
     transform: translateY(-1px);
 }
+
+.form-control, .form-select {
+    border-color: #ddd;
+    border-radius: 4px;
+}
+
+.btn-dark {
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 4px;
+}
