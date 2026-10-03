@@ -22,3 +22,25 @@
     height: 400px;
     border-radius: 8px;
 }
+@media (max-width: 768px) {
+    .about-row {
+        grid-template-columns: 1fr;
+    }
+    .about-photo img {
+        height: 300px;
+    }
+}
+@media(max-width: 480px) {
+    .about-photo  {
+        padding: 20 px 10px;
+    }
+    .about-text h1, .about-text h2 {
+        font-size: 24px;
+    }
+    .about-text p {
+        font-size: 14px;
+    }
+    .about-photo img {
+        height: 220px;
+    }
+}
