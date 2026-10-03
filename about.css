@@ -22,6 +22,11 @@
     height: 400px;
     border-radius: 8px;
 }
+.site-footer {
+    background-color: #1a1a1a;
+    color: #d2b47a;
+    font-size: 0.85rem;
+}
 @media (max-width: 768px) {
     .about-row {
         grid-template-columns: 1fr;

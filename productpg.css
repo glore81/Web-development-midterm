@@ -4,6 +4,25 @@
     gap: 30px;
     margin-top: 20px;
 }
+.search {
+    display: flex;
+}
+
+.search input {
+    width: 250px;
+    height: 40px;
+    padding-left: 12px;
+    border: 1px solid #ddd;
+}
+
+.search button {
+    width: 75px;
+    height: 40px;
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    border-radius: 0 6px 6px 0;
+}
 .photos {
     display: flex;
     gap:20px;
@@ -61,6 +80,14 @@
 }
 .price {
     font-size: 20px;
+}
+.site-footer {
+    background-color: #1a1a1a;
+    color: #d2b47a;
+    font-size: 0.85rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 @media (max-width: 768px) {
     .product {
