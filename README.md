@@ -22,7 +22,7 @@ The web application includes five fully styled pages connected by a consistent n
 
 - **Contact (`contact.html`)** — Feedback page with a validated inquiry form, CSS-positioned store location map, direct contact details, and support service timetable.
 
-## 🛠 Features Implemented
+## Features Implemented
 - **HTML5 Semantics:** Proper heading hierarchy, semantic landmarks (`<main>`, `<nav>`, `<article>`, `<section>`, `<footer>`), validated forms, and a support schedule table.
 - **CSS Layouts:** Extensive use of CSS Grid (`.product-grid`, `.contact-grid`), Flexbox (navbar, cards), and Positioning (`position: absolute` for map pin and badges).
 - **Responsive Design:** Fully responsive layout using the Bootstrap 5 grid system alongside custom media queries for tablet (992px) and mobile (576px) viewports.
