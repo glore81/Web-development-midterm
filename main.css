@@ -91,13 +91,6 @@
     text-decoration: underline;
 }
 
-
-.site-footer {
-    background-color: #1a1a1a;
-    color: #d2b47a;
-    font-size: 0.85rem;
-}
-
 /* Tablet */
 @media (max-width: 992px) {
     .promo-main { min-height: 360px; }
